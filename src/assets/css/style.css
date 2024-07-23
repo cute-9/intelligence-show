@@ -1,0 +1,246 @@
+/* 日期选择器 */
+.el-date-editor .el-range-input {
+    background-color: transparent;
+    color: #c7c7c7;
+}
+
+.el-date-editor .el-range-separator {
+    color: #fff;
+}
+
+.el-date-range-picker__content.is-left {
+    /* border: 1px solid #07f0fd; */
+}
+
+.el-date-range-picker .el-picker-panel__body {
+    background-color: #171c25;
+    /* border: 1px solid #07f0fd; */
+}
+
+
+
+.el-date-range-picker__header {
+    color: #fff;
+}
+
+.el-picker-panel__icon-btn {
+    color: #fff;
+}
+
+.el-range-separator {
+    color: #fff;
+}
+
+.el-date-table td.in-range div,
+.el-date-table td.in-range div:hover,
+.el-date-table.is-week-mode .el-date-table__row.current div,
+.el-date-table.is-week-mode .el-date-table__row:hover div {
+    background-color: #171c25;
+}
+
+.el-picker-panel__footer {
+    background-color: #171c25;
+    color: #fff;
+}
+
+.el-input.is-disabled .el-input__inner {
+    background-color: #171c25;
+    color: #fff;
+
+}
+
+.el-input__inner {
+    background-color: #171c25;
+    color: #fff;
+}
+
+.el-time-panel {
+    background-color: #171c25;
+}
+
+.el-time-panel__btn {
+    color: #fff;
+}
+
+.el-time-spinner__item.active:not(.disabled) {
+    color: #fff;
+}
+
+/* 多选下拉框 */
+.el-cascader__dropdown {
+    border: 1px solid #07f0fd !important;
+}
+
+.el-cascader-menu__list {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 6px 0;
+    list-style: none;
+    /* box-sizing: border-box; */
+    background-color: #171c25 !important;
+    color: #a7a7a7
+}
+
+.el-cascader-node:not(.is-disabled):focus,
+.el-cascader-node:not(.is-disabled):hover {
+    background-color: #70CF90;
+    color: #e4e4e4
+}
+
+.el-cascader-menu {
+    border-right: solid 1px #919191;
+}
+
+/* 单选框 */
+
+.el-scrollbar {
+    background-color: #171c25 !important;
+    color: #a7a7a7
+}
+
+.el-select-dropdown {
+    border: 1px solid #07f0fd !important;
+
+}
+
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+    background-color: #70CF90;
+    color: #e4e4e4
+}
+
+/* 提示框 */
+.el-message-box {
+    background-color: #171c25 !important;
+    border-radius: 4px;
+    border: 1px solid #07f0fd !important;
+    color: #fff;
+}
+
+.el-message-box__title {
+    color: #fff;
+}
+
+.el-message-box__headerbtn .el-message-box__close {
+    color: #fff;
+}
+
+.el-message-box__content {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.el-message-box__btns .el-button--primary {
+    color: #000;
+    background-color: #07f0fd;
+    border-color: #07f0fd;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #202c3e;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background: rgb(0, 0, 0);
+}
+
+/*  分页样式*/
+.el-pagination__total {
+    margin-right: 10px;
+    font-weight: 400;
+    color: #70cf90;
+}
+
+.is-background .el-pager li {
+    /*对页数的样式进行修改*/
+    background-color: #10263c;
+    color: #fff;
+}
+
+.is-background .btn-next {
+    /*对下一页的按钮样式进行修改*/
+    background-color: #10263c;
+    color: #fff;
+}
+
+.is-background .btn-prev {
+    /*对上一页的按钮样式进行修改*/
+    background-color: #10263c;
+    color: #fff;
+}
+
+.is-background .el-pager li:not(.disabled).active {
+    /*当前选中页数的样式进行修改*/
+    background-color: #446cff;
+    color: #fff;
+}
+
+/* 表格样式 */
+.el-table,
+.el-table__expanded-cell {
+    background-color: transparent !important;
+}
+
+.el-table th {
+    background-color: rgba(50, 62, 83, 0.25) !important;
+    color: #828faa !important;
+    border-bottom: 3px solid #000 !important;
+}
+
+.el-table tr {
+    background-color: transparent !important;
+}
+
+.el-table--enable-row-transition .el-table__body td {
+    background-color: rgba(50, 62, 83, 0.25) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    border-bottom: 3px solid #000 !important;
+}
+
+.el-table .cell {
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    border: none !important;
+}
+
+.el-table th>.cell {
+    color: rgba(254, 254, 254, 1) !important;
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover>td {
+    background-color: #a092ff;
+}
+
+/* 弹窗样式 */
+.el-dialog {
+    background-color: #000000;
+    background-image: url(../dialog.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.el-dialog__title {
+    color: #e0f1f5;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+    color: #e0f1f5;
+}
+
+/* 分页 */
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #70CF90;
+}
